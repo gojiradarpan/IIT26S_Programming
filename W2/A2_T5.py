@@ -23,3 +23,14 @@
 
 # The word 'Moonbanana' sliced to the defined substring is 'Moon'.
 # Program ending.
+print("Program staring.")
+word = input("Enter a closed compound word: ")
+print(f"The word you inserted is '{word}' and in reverse it is '{word[::-1]}'.")
+print(f"The inserted word length is {len(word)}")
+print(f"Last character is '{word[-1]}'")
+print("Take substring from the inserted word by inserting...")
+starting_point = int(input("Starting point: "))
+ending_point = int(input("Ending point: "))
+step_size = int(input("Step size: "))
+
+print(f"The word '{word}' sliced to the defined substring is '{word[starting_point:ending_point:step_size]}'.")
