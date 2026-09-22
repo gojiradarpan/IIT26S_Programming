@@ -1,17 +1,3 @@
-# Program starting.
-# Insert two integers.
-# Insert first integer: 5
-# Insert second integer: 5
-# Comparing inserted integers.
-# Integers are the same
-
-# Adding integers together
-# 5 + 5 = 10
-
-# Checking the parity of the sum...
-# Sum is even.
-# Program ending.
-
 print("Program staring.")
 print("Insert two integers.")
 int1 = int(input("Enter first integer: "))
