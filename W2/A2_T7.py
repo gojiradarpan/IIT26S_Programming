@@ -1,0 +1,5 @@
+print("Program staring.")
+fahrenheits = float(input("Insert farhenheits: "))
+f_2_c = round(((fahrenheits - 32) / 1.8), 1)
+print(f"{fahrenheits}°F is {f_2_c}°C")
+print("Program ending.")
