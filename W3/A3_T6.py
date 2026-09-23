@@ -18,7 +18,7 @@ if choice == "1":
         km = float(input("Insert kilometres: "))
         m = km*1000
         print(f"{km} km is {round(m, 1)} m")
-    elif choice == "0":
+    elif choice1 == "0":
         print("Exiting...")
     else:
         print("Unknown option.")
@@ -32,15 +32,16 @@ elif choice == "2":
         g = float(input("Insert grams: "))
         lbs = g * 0.002205
         print(f"{g} g is {round(lbs, 1)} lb")
-    elif choice == "2":
+    elif choice2 == "2":
         lbs = float(input("Insert pounds: "))
         g = lbs * 453.6
-        print(f"{lbs} lb is {round(g, 1) g}")
-    elif choice == "0":
+        print(f"{lbs} lb is {round(g, 1)} g")
+    elif choice2 == "0":
         print("Exiting...")
     else:
-        print("Unknown options.")
+        print("Unknown option.")
 elif choice == "0":
     print("Exiting...")
 else:
     print("Unknown option.")
+print("\nProgram ending.")
