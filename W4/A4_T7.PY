@@ -9,10 +9,15 @@ count = 0
 while int(str_integer) >= 10:
 
     x = 1
+    first = True
+
     for i in str_integer:
+        if first == False:
+            print(" * ", end="")
+        print(i, end="")
+        first = False
         x = x*int(i)
-        
-    print(x)
+    print(f" = {x}")
     count += 1
     str_integer = str(x)
 
