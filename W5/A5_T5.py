@@ -29,19 +29,22 @@ def main():
         choice = input("Your choice: ")
         if choice == "1":
             w = choice_1()
+            print()
             options()
             
         elif choice == "2":
             choice_2(w)
+            print()
             options()
         elif choice == "3":
             choice_3(w)
+            print()
             options()
         elif choice == "0":
             break
         else:
             print("Unknown option! Try again.")
+            print()
             options()
+    print("Exiting program.\n\nProgram ending.")
 main()
-
-print("Exiting program.\n\nProgram ending.")
